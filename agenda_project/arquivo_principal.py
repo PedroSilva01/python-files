@@ -1,3 +1,4 @@
+
 AGENDA = {}
 
 AGENDA['Guilherme'] = {
@@ -21,10 +22,10 @@ AGENDA['Maria'] = {
 def mostrar_contato():
     for contato in AGENDA:
         print(f'Nome: {contato}')
-        print('Telefone: ', AGENDA[contato]['telefone']) #nesse caso a f'string não suporta fazer isso
-        print('Email: ', AGENDA[contato]['email'])
-        print('endereco: ', AGENDA[contato]['endereco'])
-        print('-----------------------------------------'.center(30))
+        print('Telefone: ', AGENDA.get('telefone', None)) #nesse caso a f'string não suporta fazer isso
+        print('Email: ', AGENDA.get('email', None))
+        print('endereco: ', AGENDA.get('endereco', None))
+        print('-------------------------'.center(30))
 
 #mostrar_contato()
 
