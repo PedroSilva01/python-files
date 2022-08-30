@@ -1,0 +1,5 @@
+usada quando se quer repetir alguma parte do codigo algumas vezes
+
+as estruturas são:
+FOR 
+WHILE

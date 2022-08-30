@@ -1,0 +1,5 @@
+nas condicionais há se é true ou false
+as estruturas são:
+IF
+ELSE
+ELIF
