@@ -22,3 +22,5 @@ altura = cadastro.get('altura', None)
 print(altura) # ele vai retorna None, pois está tratando o erro de não haver a chave altura no dicionario.
 
 #prox aula F40
+
+#TODO EXCLUIR ITENS EM DICTS
