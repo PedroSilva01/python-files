@@ -32,3 +32,5 @@ arquivo_saida.write(retorno_arquivo) #no arquivo_saida eu to passando os bits do
 arquivo_saida.close()
 
 arquivo.close()
+
+#PROX AULA F59 MANIPULAÇÃO DE ARQUIVOS CSV
