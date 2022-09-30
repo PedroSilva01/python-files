@@ -21,5 +21,6 @@ def calcula_media_mediana(notas):
 resul_media, resul_mediana = calcula_media_mediana([4,7,9,5])
 print(resul_media, resul_mediana)
 
+
 #len() calcula o tamanho do item inserido dentro dos ()
 #sum() calcula a soma de todos os items inserido dentro dos ()

@@ -16,7 +16,7 @@ if (sexo.upper() == 'M'):
     else:
         print('Aposentadoria negada')
 
-elif (sexo.upper() == 'F')
+elif (sexo.upper() == 'F'):
     if (idade >= 60):
         print('Aposentadoria concedida')
 
