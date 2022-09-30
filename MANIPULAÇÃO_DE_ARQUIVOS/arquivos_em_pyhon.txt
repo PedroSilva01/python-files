@@ -1,0 +1,27 @@
+os arquivos em python, nós temos 2 tipos
+os de textos e os binarios
+a unica diferença é a se eles sao legiveis por humanos.[ex de textos:] (html, txt, xml, json e etc)
+[ex de binarios:] (imagens, videos, pdfs, xlxs, docx, pptx)
+ai usamos a função open()
+que tem 2 parametros necessarios que são o 'arquivo' e o 'modulo' open(arquivo, modulo)
+o arquivo é onde vai apontar pra ele onde está o arquivo que vc quer ver, que no caso seria a string com o
+caminho. e o modulo é para dizer que quer ver um arquivo do tipo texto, binario e etc.
+        texto       binario
+------------------------
+L       "r"         "b"
+L/E     "r+"        "b+"
+------------------------
+E       "w"         "wb"
+E/L     "w+"        "wb+"
+-------------------------
+A       "a"         "ab"
+A/L     "a+"        "ab+"
+-------------------------
+L = LEITURA (READ)
+E = ESCRITA (WRITE)
+A = ANEXAR (APPEND)
+ex.: arquivos usr/home/arquivo.txt
+open("/usr/home/arquivo.txt", 'r') irá ler o arquivo 
+PARA LIMPAR O ARQUIVO ORIGINAL E SOBREESCREVER O ANTIGO:
+
+arg_2 = open("/usr/home/arquivo.txt", 'r+') ou open("/usr/home/arquivo.txt", 'w+') os 2 servem.
