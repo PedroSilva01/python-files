@@ -53,3 +53,4 @@ def divisao(a,b, *args):
             else:
                 y = x/i
                 print(f'O novo valor da divisão de {x:.2f} por {i} é {y:.2f}')
+
